@@ -1,0 +1,14 @@
+{
+  "name": "@digitalnativeinc/type-definitions",
+  "version": "1.0.0",
+  "description": "type definitions for all protocols and networks under digitalnativeinc",
+  "author": "junghoon lee <billjhlee@gmail.com> (http://standard.tech)",
+  "homepage": "https://standard.tech",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "https://github.com/digitalnativeinc/additionals",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
