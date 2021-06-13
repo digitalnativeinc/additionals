@@ -10,5 +10,11 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "Opportunity",
+    "Testnet",
+    "Standard Protocol",
+    "Defi"
+  ]
 }
