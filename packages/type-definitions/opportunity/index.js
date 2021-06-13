@@ -35,4 +35,4 @@ var _default = {
   ],
 };
 
-exports.default = _default;
+exports = _default;
