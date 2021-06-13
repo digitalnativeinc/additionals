@@ -1,1 +1,3 @@
-export { default as opportunityTypes } from './opportunity';
+var opportunityTypes = require('./opportunity');
+
+exports.opportunityTypes = opportunityTypes;

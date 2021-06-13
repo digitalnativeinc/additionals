@@ -1,4 +1,4 @@
-const opportunityType = {
+var _default = {
   types: [
     {
       // on all versions
@@ -35,4 +35,4 @@ const opportunityType = {
   ],
 };
 
-export default opportunityType;
+exports.default = _default;
