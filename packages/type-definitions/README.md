@@ -1,11 +1,9 @@
-# `type-definitions`
+# Standard Protocol's Type Definitions
 
-> TODO: description
+type definitions for all protocols and networks under digitalnativeinc
 
-## Usage
+**Opportunity Testnet is [LIVE](https://telemetry.polkadot.io/#list/Opportunity%20Standalone%20Testnet)!**
 
-```
-const typeDefinitions = require('type-definitions');
+Currently includes:
 
-// TODO: DEMONSTRATE API
-```
+- type definitions for Opportunity Testnet (operated and managed by Standard Protocol)
