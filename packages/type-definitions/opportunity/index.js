@@ -1,4 +1,4 @@
-export default {
+const opportunityType = {
   types: [
     {
       AccountInfo: 'AccountInfoWithTripleRefCount',
@@ -18,3 +18,5 @@ export default {
     },
   ],
 };
+
+export default opportunityType

@@ -1,3 +1,5 @@
-import type { OverrideBundleDefinition } from '@polkadot/types/types';
+import type { OverrideBundleDefinition } from '@polkadot/types/types'
 
-export declare const opportunityTypes: OverrideBundleDefinition
+declare const opportunityTypes: OverrideBundleDefinition
+
+export default opportunityTypes
