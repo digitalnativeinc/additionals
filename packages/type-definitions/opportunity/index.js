@@ -35,4 +35,4 @@ var _default = {
   ],
 };
 
-exports = _default;
+module.exports = _default;
