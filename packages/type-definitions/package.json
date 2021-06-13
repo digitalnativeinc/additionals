@@ -17,5 +17,8 @@
     "Testnet",
     "Standard Protocol",
     "Defi"
-  ]
+  ],
+  "dependencies": {
+    "@polkadot/types": "^4.13.1"
+  }
 }
