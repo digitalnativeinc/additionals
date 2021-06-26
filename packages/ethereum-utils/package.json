@@ -1,0 +1,22 @@
+{
+  "name": "@digitalnative/ethereum-utils",
+  "version": "1.0.0",
+  "description": "ethereum utils for stnd",
+  "author": "junghoon lee <billjhlee@gmail.com> (http://standard.tech)",
+  "homepage": "https://standard.tech",
+  "license": "MIT",
+  "repository": "https://github.com/digitalnativeinc/additionals.git",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "keywords": [
+    "STND",
+    "Ethereum",
+    "Event",
+    "Smart Contract"
+  ],
+  "dependencies": {
+    "ethers": "^5.3.1"
+  }
+}

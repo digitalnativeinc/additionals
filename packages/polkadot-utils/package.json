@@ -1,0 +1,26 @@
+{
+  "name": "polkadot-utils",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "junghoon lee <billjhlee@gmail.com> (http://standard.tech)",
+  "homepage": "https://standard.tech",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./dist",
+    "compile": "tsc"
+  },
+  "repository": "https://github.com/digitalnativeinc/api",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "keywords": [
+    "STND",
+    "Polkadot"
+  ],
+  "dependencies": {
+    "@polkadot/api": "^4.15.1"
+  }
+}

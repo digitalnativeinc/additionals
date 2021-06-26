@@ -28,3 +28,5 @@ coverage/
 .eslintcache
 .env
 .npmrc
+
+/packages/test
