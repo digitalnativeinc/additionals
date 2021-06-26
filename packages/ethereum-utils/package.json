@@ -5,6 +5,12 @@
   "author": "junghoon lee <billjhlee@gmail.com> (http://standard.tech)",
   "homepage": "https://standard.tech",
   "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./dist",
+    "compile": "tsc"
+  },
   "repository": "https://github.com/digitalnativeinc/additionals.git",
   "publishConfig": {
     "access": "public",

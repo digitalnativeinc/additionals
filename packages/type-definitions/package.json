@@ -6,7 +6,12 @@
   "homepage": "https://standard.tech",
   "license": "MIT",
   "main": "index.js",
-  "repository": "https://github.com/digitalnativeinc/additionals",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./dist",
+    "compile": "tsc"
+  },
+  "repository": "https://github.com/digitalnativeinc/api",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
@@ -19,6 +24,7 @@
     "Defi"
   ],
   "dependencies": {
+    "@polkadot/keyring": "^6.9.1",
     "@polkadot/types": "^4.13.1"
   }
 }

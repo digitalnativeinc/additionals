@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.build.json",
+
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      "@digitalnative/type-definitions": ["type-definitions"],
+      "@digitalnative/ethereum-utils": ["ethereum-utils"]
+    }
+  }
+}

@@ -1,6 +1,6 @@
-const ChainCode = require('./Types/ChainCode');
-const InfuraWSProvider = require('./Providers/InfuraWSProvider');
-const ContractEventListener = require('./ContractEventListener');
+const ChainCode = require('./src/Specs/ChainCode');
+const InfuraWSProvider = require('./src/Providers/InfuraWSProvider');
+const ContractEventListener = require('./src/ContractEventListener');
 
 module.exports = {
   ChainCode,
