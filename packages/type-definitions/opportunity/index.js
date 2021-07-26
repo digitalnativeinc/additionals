@@ -1,7 +1,6 @@
 var _default = {
   types: [
     {
-      // on all versions
       minmax: [0, undefined],
       types: {
         AccountInfo: 'AccountInfoWithTripleRefCount',
