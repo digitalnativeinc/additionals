@@ -29,7 +29,7 @@ var _default = {
           max_collateraization_rate: 'U256',
           stability_fee: 'Balance',
         },
-        SocketIndex: 'U32',
+        SocketIndex: 'u32',
       },
     },
   ],
