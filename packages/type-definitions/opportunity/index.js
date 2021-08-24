@@ -30,6 +30,7 @@ var _default = {
           stability_fee: 'Balance',
         },
         SocketIndex: 'u32',
+        RoundIndex: 'u32'
       },
     },
   ],
