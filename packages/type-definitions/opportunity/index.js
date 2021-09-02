@@ -30,7 +30,19 @@ var _default = {
           stability_fee: 'Balance',
         },
         SocketIndex: 'u32',
-        RoundIndex: 'u32'
+        RoundIndex: 'u32',
+        Currency: 'Balances',
+        ChainId: 'u8',
+        ProposalVotes: {
+          votes_for: 'Vec<AccountId>',
+          votes_against: 'Vec<AccountId>',
+          status: 'enum'
+        },
+        ERC721Token: {
+          id: 'TokenId',
+          metadata: 'Vec<u8>'
+        },
+        TokenId: 'U256'
       },
     },
   ],
