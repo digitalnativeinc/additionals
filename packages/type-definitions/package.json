@@ -1,6 +1,6 @@
 {
   "name": "@digitalnative/type-definitions",
-  "version": "1.1.12",
+  "version": "1.1.14",
   "description": "type definitions for all protocols and networks under digitalnativeinc",
   "author": "junghoon lee <billjhlee@gmail.com> (http://standard.tech)",
   "homepage": "https://standard.tech",
@@ -27,5 +27,5 @@
     "@polkadot/keyring": "^6.9.1",
     "@polkadot/types": "^4.13.1"
   },
-  "gitHead": "0a93390c1a0e24fa95931106ee2200a500d55356"
+  "gitHead": "91c963ab79cca12fc7122faef4a752e9e727ff51"
 }
