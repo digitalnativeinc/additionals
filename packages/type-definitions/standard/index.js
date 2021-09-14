@@ -6,16 +6,9 @@ var _default = {
         AccountInfo: 'AccountInfoWithTripleRefCount',
         Address: 'MultiAddress',
         LookupSource: 'MultiAddress',
-        XCurrencyId: {
-          chain_id: 'ChainId',
-          currency_id: 'Bytes',
-        },
+        XCurrencyId: { chain_id: 'ChainId', currency_id: 'Bytes' },
         CurrencyIdOf: 'CurrencyId',
-        CurrencyId: {
-          _enum: {
-            Token: 'TokenSymbol',
-          },
-        },
+        CurrencyId: { _enum: { Token: 'TokenSymbol' } },
         TokenSymbol: {
           _enum: ['ACA', 'AUSD', 'DOT', 'XBTC', 'LDOT', 'RENBTC', 'SDN', 'PLM'],
         },
@@ -31,7 +24,8 @@ var _default = {
         },
         SocketIndex: 'i32',
         Currency: 'Balances',
-        BridgeChainId: 'u8',
+        'chainbridge::ChainId': 'u8',
+        ChainId: 'u8',
         ResourceId: '[u8; 32]',
         DepositNonce: 'u64',
         ProposalVotes: {
@@ -39,10 +33,7 @@ var _default = {
           votes_against: 'Vec<AccountId>',
           status: 'enum',
         },
-        Erc721Token: {
-          id: 'TokenId',
-          metadata: 'Vec<u8>',
-        },
+        Erc721Token: { id: 'TokenId', metadata: 'Vec<u8>' },
         TokenId: 'U256',
       },
     },

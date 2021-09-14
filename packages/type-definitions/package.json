@@ -26,5 +26,6 @@
   "dependencies": {
     "@polkadot/keyring": "^6.9.1",
     "@polkadot/types": "^4.13.1"
-  }
+  },
+  "gitHead": "0a93390c1a0e24fa95931106ee2200a500d55356"
 }

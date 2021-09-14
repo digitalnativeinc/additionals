@@ -29,7 +29,8 @@ export const types: {
         };
         SocketIndex: string;
         Currency: string;
-        BridgeChainId: string;
+        'chainbridge::ChainId': string;
+        ChainId: string;
         ResourceId: string;
         DepositNonce: string;
         ProposalVotes: {
