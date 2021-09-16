@@ -24,8 +24,7 @@ var _default = {
         },
         SocketIndex: 'i32',
         Currency: 'Balances',
-        'chainbridge::ChainId': 'u8',
-        ChainId: 'u8',
+        BridgeChainId: 'u8',
         ResourceId: '[u8; 32]',
         DepositNonce: 'u64',
         ProposalVotes: {
