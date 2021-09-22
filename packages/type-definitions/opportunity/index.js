@@ -49,4 +49,4 @@ var _default = {
   ],
 };
 
-exports.default = _default;
+module.exports = _default;
